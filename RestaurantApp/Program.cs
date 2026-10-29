@@ -52,6 +52,11 @@ namespace RestaurantApp
             {
                 Console.WriteLine($"{r.Id} {r.Name} {r.Type} {r.Rating}");
             }
+            int totalCount = restaurants.Count;
+            double averageRating = restaurants.Average(r => r.Rating);
+
+            Console.WriteLine($"จำนวนร้านทั้งหมด: {totalCount} ร้าน");
+            Console.WriteLine($"คะแนนเฉลี่ย: {averageRating:F2}");
 
 
 
