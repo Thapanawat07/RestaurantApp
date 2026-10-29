@@ -41,6 +41,10 @@ namespace RestaurantApp
                 new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
                 new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
             };
+            foreach (var r in restaurants)
+            {
+                Console.WriteLine($"รหัส: {r.Id}, ชื่อ: {r.Name}, ประเภท: {r.Type}, คะแนน: {r.Rating}");
+            }
 
 
 
