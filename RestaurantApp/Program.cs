@@ -45,6 +45,13 @@ namespace RestaurantApp
             {
                 Console.WriteLine($"รหัส: {r.Id}, ชื่อ: {r.Name}, ประเภท: {r.Type}, คะแนน: {r.Rating}");
             }
+            restaurants.Add(new Restaurant(4, "Sichuan Impression", "Sichuan Cuisine", 4.4));
+            restaurants.Add(new Restaurant(5, "Gorgan Ice Cream", "Dessert", 4.8));
+
+            foreach (var r in restaurants)
+            {
+                Console.WriteLine($"{r.Id} {r.Name} {r.Type} {r.Rating}");
+            }
 
 
 
