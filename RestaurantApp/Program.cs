@@ -12,10 +12,10 @@ namespace RestaurantApp
 
         public Restaurant(int v1, string v2, string v3, double v4)
         {
-            this.Id = Id;
-            this.Name = Name;
-            this.Type = Type;
-            this.Rating = Rating;
+            this.Id = v1;
+            this.Name = v2;
+            this.Type = v3;
+            this.Rating = v4;
         }
 
         // กำหนด Property สำหรับเก็บข้อมูล รหัส, ชื่อ, ประเภท และคะแนน
